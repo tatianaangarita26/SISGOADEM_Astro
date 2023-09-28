@@ -1,0 +1,77 @@
+---
+import CompatibilityList from "~/components/compatibility-list.astro";
+import ContentSection from "~/components/content-section.astro";
+import type { CompatibilityItem } from "~/types";
+
+const frameworks: Array<CompatibilityItem> = [
+  {
+    title: "React",
+    icon: "frameworks/react",
+    url: "https://reactjs.org/",
+  },
+  {
+    title: "Preact",
+    icon: "frameworks/preact",
+    url: "https://preactjs.com/",
+  },
+  {
+    title: "Svelte",
+    icon: "frameworks/svelte",
+    url: "https://svelte.dev/",
+  },
+  {
+    title: "Vue",
+    icon: "frameworks/vue",
+    url: "https://vuejs.org/",
+  },
+  {
+    title: "Solid",
+    icon: "frameworks/solid",
+    url: "https://www.solidjs.com/",
+  },
+  
+];
+
+const platforms: Array<CompatibilityItem> = [
+  {
+    title: "Netlify",
+    icon: "platforms/netlify",
+    url: "https://www.netlify.com/",
+  },
+  {
+    title: "Vercel",
+    icon: "platforms/vercel",
+    url: "https://vercel.com/",
+  },
+  {
+    title: "Cloudflare",
+    icon: "fa-brands:cloudflare",
+    url: "https://pages.cloudflare.com/",
+  },
+  {
+    title: "Render",
+    icon: "platforms/render",
+    url: "https://render.com/",
+  },
+  {
+    title: "GitHub",
+    icon: "fa-brands:github",
+    url: "https://pages.github.com/",
+  },
+ 
+];
+---
+
+<ContentSection title="Alcance" id="compatibility">
+  <Fragment slot="lead">
+    Para el  <span class="text-primary">2023 </span>implementaremos un sistema de gestión productiva con gestión innovadora y competitiva que sea dedicada a la 
+    <span class="text-primary">satisfacción plena de nuestros usuarios</span>
+    usuarios integrando un sistema de fácil manejo y eficiente para los 
+    <span class="text-primary">diferentes usuarios </span> 
+    al momento que sea ejecutada en cualquier sistema operativo, y 
+    como consecuencia de eso se refleje a futuro como punto fuerte en la
+    <span class="text-primary">administración y operaciones empresarial.</span> 
+  </Fragment>
+  
+  
+</ContentSection>
