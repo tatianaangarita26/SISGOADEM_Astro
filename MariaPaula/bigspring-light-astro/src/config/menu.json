@@ -1,0 +1,40 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Apoyo",
+      "menu": [
+        {
+          "text": "Proposito General",
+          "url": "/privacy-policy"
+        },
+        {
+          "text": "Resumen",
+          "url": "/terms-conditions"
+        }
+      ]
+    },
+    {
+      "name": "Soportes",
+      "menu": [
+        {
+          "text": "Metodología Propuesta",
+          "url": "/privacy"
+        },
+        {
+          "text": "Documentos",
+          "url": "/terms"
+        }
+      ]
+    }
+  ]
+}
