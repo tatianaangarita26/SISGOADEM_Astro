@@ -22,7 +22,6 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Empezar",
     "link": "/contacto"
   },
 
